@@ -1,0 +1,39 @@
+:root{
+    --theme-color:var(--navbar-shallow-color);
+    --primary-color:#124f88;
+    --secondary-color:#f7c331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+
+}
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: url("img2.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:#ffa5e4;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
